@@ -1,0 +1,23 @@
+<header class="chart">
+
+  <div class="donut">
+    <div class="https_chart"></div>
+    {% include 'includes/https/donut.html' %}
+  </div>
+
+  <div class="description">
+    <h2>Secure HTTP (HTTPS)</h2>
+    <h3>Last updated <strong>{{ scan_date | date("%B %d, %Y") }}</strong></h3>
+    <p>
+       This data measures whether <a href="{{ site.data.domains_url }}">Missouri government domains</a> support the HTTPS protocol (<code>https://</code>), and the strength of that support. HTTPS provides a secure connection across the internet between websites and their visitors, and is becoming the new baseline for public web services.</a>.
+    </p>
+    <p>
+      Note that HTTPS generally <strong>does not affect</strong> whether a website is vulnerable to hacking.
+    </p>
+
+    <p>
+      HTTPS and TLS data was last collected through a scan of the public internet on <strong>{{ scan_date | date("%B %d, %Y") }}</strong>.
+    </p>
+  </div>
+
+</header>

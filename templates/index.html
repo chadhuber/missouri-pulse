@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block page_id %}home{% endblock %}
+{% block title %}Pulse - How Missouri government domains are meeting best practices on the web.{% endblock %}
+{% block description %}{{ site.description }}{% endblock %}
+
+{% block content %}
+<div class="wrapper">
+  <div class="hero">
+  	<h2>{{ site.name }}</h2>
+  	<h3>{{ site.description }}</h3>
+  </div>
+
+  <div id="results">
+    <div class="https">
+    	<div class="https_chart"
+        data-width="287"
+      ></div>
+    	{% include 'includes/https/donut.html' %}
+      <a href="/https/domains/" class="button">View HTTPS Results</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

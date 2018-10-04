@@ -1,0 +1,17 @@
+# Site metadata.
+
+# Canonical URL
+url: https://pulse.showmestate.win
+
+name: Pulse
+title: "The pulse of the Missouri .gov space"
+description: "How Missouri government domains are meeting best practices on the web."
+
+# Data source URLs. They shouldn't require manual updates.
+data:
+  # URL where we download the .gov domain list from.
+  domains_url: https://gist.github.com/chadhuber/9b466930df6f2fa4972946df76c532ef/raw/c9292b247a09fe08868b6e8e69403da23db864f5/missouri-domains.csv
+  # domains_url: https://gist.github.com/chadhuber/3b1ca3cd06c23a20efdc56d763b92489/raw/04b6a8282a99ea2a63438bd985422a966b4b2003/missouri-domains-test.csv
+
+  # URL where we download the participating DAP .gov list from.
+  # analytics_url: https://analytics.usa.gov/data/live/second-level-domains.csv

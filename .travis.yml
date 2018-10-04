@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.4"
+
+git:
+  submodules: false
+sudo: false
+
+script: echo "ran"
+
+branches:
+  except:
+    - data-tracking

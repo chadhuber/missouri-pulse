@@ -1,0 +1,17 @@
+---
+project: "Missouri Pulse"
+name: missouri-pulse
+github:
+- chadhuber/missouri-pulse
+description: A lightweight dashboard that uses the official .gov domain list to measure HTTPS integration forked from 18F/pulse
+stage: beta
+milestones:
+- 'October 2016: Forked from 18F and initial launch'
+contact:
+- chad.huber@gmail.com
+team: chad
+licenses:
+  pulse: Public Domain (CC0)
+links:
+- https://showmestate.win
+status: 
