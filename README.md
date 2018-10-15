@@ -1,7 +1,7 @@
 ## The pulse of Missouri .gov webspaces
 
 
-## --------
+--------
 Everything down here is leftover from the original 18F README
 
 ## The pulse of the federal .gov webspace
