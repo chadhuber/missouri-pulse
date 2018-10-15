@@ -1,7 +1,5 @@
 ## The pulse of Missouri .gov webspaces
 
-This application is deployed on AWS Elastic Beanstalk and can be viewed [here](http://missouripulse-env.geemq3g36i.us-east-1.elasticbeanstalk.com/)
-
 
 ## --------
 Everything down here is leftover from the original 18F README
